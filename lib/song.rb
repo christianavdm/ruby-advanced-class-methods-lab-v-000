@@ -49,6 +49,7 @@ class Song
     song_array = filename.chomp(".mp3").split("-")
     new_song = Song.create(song_array[1])
     new_song.artist_name = song_array[0]
+    new_song
   end
 
 end
