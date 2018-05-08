@@ -12,7 +12,6 @@ class Song
   end
 
   def self.create
-    binding.pry
     new_song = self.new
     @@all << new_song
   end
